@@ -4,6 +4,10 @@ end
 
 class String
   def availablize
-    self.gsub(/y$/, 'ie').gsub(/e$/, '') + 'able'
+    if self[-1] == 'e'
+      self + 'ble'
+    else
+      self.gsub(/y$/, 'iz') + 'able'
+    end
   end
 end

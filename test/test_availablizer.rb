@@ -1,7 +1,7 @@
 # encoding: utf-8
 require 'minitest/autorun'
 require 'minitest/unit'
-require_relative '../lib/time_compact'
+require_relative '../lib/availablizer'
 
 class TestAvailablizer < MiniTest::Test
   def test_availablize
