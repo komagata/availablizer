@@ -1,6 +1,15 @@
 # Availablizer
 
-TODO: Write a gem description
+![TravisCI Build Status](https://secure.travis-ci.org/komagata/availablizer.png)
+
+Converting your string to available.
+
+for example:
+
+    "comment".availablize  # => "commentable"
+    "read".availablize     # => "readable"
+    "scare".availablize    # => "scareble"
+    "category".availablize # => "categorizable"
 
 ## Installation
 
@@ -18,7 +27,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+It's all
+
+    require 'availablizer'
 
 ## Contributing
 
