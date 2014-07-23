@@ -21,7 +21,7 @@ class String
       if suffix == 'ible'
         self[0..-2] + suffix
       elsif as_is.include? self
-        self + 'able'
+        self + suffix
       else
         self + 'ble'
       end
