@@ -4,7 +4,7 @@ end
 
 class String
   def availablize
-    as_is = %w(like peace)
+    as_is = %w(like peace scare)
     ibles = %w(access collapse compat defense fall sense insense response reverse suggest contempt convert flex gull terrify horrify plausible)
 
     if ibles.include? self
