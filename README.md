@@ -8,7 +8,7 @@ for example:
 
     "comment".availablize  # => "commentable"
     "read".availablize     # => "readable"
-    "scare".availablize    # => "scareble"
+    "scare".availablize    # => "scareable"
     "category".availablize # => "categorizable"
 
 ## Installation

@@ -7,7 +7,7 @@ class TestAvailablizer < MiniTest::Test
   def test_availablize
     assert_equal 'comment'.availablize, 'commentable'
     assert_equal 'read'.availablize, 'readable'
-    assert_equal 'scare'.availablize, 'scareble'
+    assert_equal 'scare'.availablize, 'scareable'
     assert_equal 'category'.availablize, 'categorizable'
     assert_equal 'navigate'.availablize, 'navigable'
     assert_equal 'access'.availablize, 'accessible'
